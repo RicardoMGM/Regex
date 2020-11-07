@@ -12,11 +12,11 @@ Projeto para aprender os conceitos básicos de expressões regulares (Regex).
 
 ## Representantes
 
-meta    mnemônico       função
----------------------------------------------------------------
-.       ponto           um caractere qualquer
-[...]   lista           lista de caracteres permitidos
-[^...]  lista negada    lista de caracteres proibidos
+meta   | mnemônico      | função
+-------|----------------|----------------------------------------
+.      | ponto          | um caractere qualquer
+[...]  | lista          | lista de caracteres permitidos
+[^...] | lista negada   | lista de caracteres proibidos
 
 ## Quantificadores
 
