@@ -8,6 +8,13 @@ Projeto para aprender os conceitos básicos de expressões regulares (Regex).
 <li>Extensão: "Code Runner" instalada no Visual Studio Code</li>
 </ul>
 
+# Execução
+<ul>
+  <li>O conteúdo está separado por aquivo dentro da pasta src.</li>
+  <li>Em cada arquivo tem comentários explicando o conteúdo.</li>
+  <li>Basta executar individualmente cada arquivo para ver o resultado da aplicação do regex referente ao conteúdo.</li> 
+</ul>
+
 # Metacaracteres
 
 ## Representantes
