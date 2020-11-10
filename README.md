@@ -1,23 +1,23 @@
 # Regex
 Projeto para aprender os conceitos básicos de expressões regulares (Regex).
 
-# Pré requisitos
+## Pré requisitos
 <ul>
 <li>Instale o Node JS</li>
 <li>Visual Studio Code</li>
 <li>Extensão: "Code Runner" instalada no Visual Studio Code</li>
 </ul>
 
-# Execução
+## Execução
 <ul>
   <li>O conteúdo está separado por aquivo dentro da pasta src.</li>
   <li>Em cada arquivo, tem comentários explicando o conteúdo.</li>
   <li>Basta executar individualmente cada arquivo, para ver o resultado da aplicação do regex referente ao conteúdo.</li> 
 </ul>
 
-# Metacaracteres
+## Metacaracteres
 
-## Representantes
+### Representantes
 
 meta   | mnemônico      | função
 -------|----------------|----------------------------------------
@@ -25,7 +25,7 @@ meta   | mnemônico      | função
 [...]  | lista          | lista de caracteres permitidos
 [^...] | lista negada   | lista de caracteres proibidos
 
-## Quantificadores
+### Quantificadores
 
 |meta   | mnemônico      | função
 |-------|----------------|----------------------------------------
@@ -34,7 +34,7 @@ meta   | mnemônico      | função
 |+      | mais           | um ou mais
 |{n,m}  | chaves         | de n até m
 
-## Âncoras
+### Âncoras
 
 meta   | mnemônico      | função
 -------|----------------|----------------------------------------
@@ -42,7 +42,7 @@ meta   | mnemônico      | função
 $      | cifrão         | fim da linha
 \b     | borda          | início ou fim de palavra
 
-## Outros
+### Outros
 
 |meta    | mnemônico      | função
 |--------|----------------|----------------------------------------
@@ -51,5 +51,5 @@ $      | cifrão         | fim da linha
 |(...)   | grupo          | delimita um grupo
 |\1...\9 | retrovisor     | texto casado nos grupos 1...9
 
-# Bibliografia
+## Bibliografia
 Projeto criado com base no curso de "Fundamentos de Expressões Regulares (Regex)", do professor: Leonardo Moura Leitao.
