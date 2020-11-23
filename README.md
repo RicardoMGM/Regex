@@ -51,5 +51,8 @@ $      | cifrão         | fim da linha
 |(...)   | grupo          | delimita um grupo
 |\1...\9 | retrovisor     | texto casado nos grupos 1...9
 
+## Tabela Unicode
+https://unicode-table.com/pt/
+
 ## Bibliografia
 Projeto criado com base no curso de "Fundamentos de Expressões Regulares (Regex)", do professor: Leonardo Moura Leitao.
