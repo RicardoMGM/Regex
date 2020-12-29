@@ -8,7 +8,9 @@ Os e-mails dos convidados são:
 `
 
 console.log(texto.match(/[a-zA-Z0-9_]+@[a-zA-Z0-9_]+\.[a-zA-Z0-9_]{2,4}/g))
+// \w -> chort hand, um grupo de caracteres pré definido pelo regex
 console.log(texto.match(/\w+@\w+\.\w{2,4}/g))
+// [\w.] -> grupo do short hand mais o ponto "."
 console.log(texto.match(/[\w.]+@\w+\.\w{2,4}/g))
 console.log(texto.match(/[\w.]+@\w+\.\w{2,4}\.?\w{0,2}/g))
 
