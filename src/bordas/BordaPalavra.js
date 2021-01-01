@@ -1,5 +1,5 @@
 const texto1 = 'dia diatonico diafragma media wikipedia bom_dia melodia radial'
-
+// \b -> borda palavras que começam com "dia"
 console.log(texto1.match(/\bdia\w+/gi))
 console.log(texto1.match(/\w+dia\b/gi))
 console.log(texto1.match(/\w+dia\w+/gi))
