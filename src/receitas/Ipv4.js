@@ -13,7 +13,7 @@ Válidos:
 255.255.255.255
 0.0.0.0
 `
-
+// Como está dentro de uma string precisa de mais de uma "\" então fica "\\d"
 const n = '(\\d{1,2}|1\\d{2}|2[0-4]\\d|25[0-5])'
 const ipv4 = RegExp(`\\b${n}\\.${n}\\.${n}\\.${n}\\b`, 'g')
 console.log(texto.match(ipv4))
