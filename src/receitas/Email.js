@@ -7,5 +7,6 @@ Os e-mails dos convidados são:
     - rafa.sampaio@yahoo.com
     - fulano+de+tal@escola.ninja.br
 `
-
+// \S -> pega tudo que não é espaço
+// \w+ -> pega uma sequência de caracteres
 console.log(texto.match(/\S+@\w+\.\w{2,6}(\.\w{2})?/g))
